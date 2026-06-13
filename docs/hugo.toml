@@ -5,6 +5,7 @@ theme = "phppdf-docs"
 
 [params]
   tagline = "A Docker image for running Hugo against a project's documentation"
+  sourceURL = "https://github.com/phppdf/docker-image-hugo"
 
 [markup.goldmark.renderer]
   unsafe = true
