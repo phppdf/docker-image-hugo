@@ -1,7 +1,7 @@
 baseURL = "https://phppdf.github.io/docker-image-hugo/"
 languageCode = "en-us"
 title = "docker-image-hugo"
-theme = "simple"
+theme = "phppdf-docs"
 
 [params]
   tagline = "A Docker image for running Hugo against a project's documentation"
