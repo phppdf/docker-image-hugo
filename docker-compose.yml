@@ -1,5 +1,8 @@
 services:
   docs-webserver:
+    build:
+      context: .
+      dockerfile: src/Dockerfile
     image: ghcr.io/phppdf/docker-image-hugo:dev
     container_name: phppdf-docker-image-hugo-docs
     volumes:
